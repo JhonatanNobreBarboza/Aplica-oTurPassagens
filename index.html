@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Passagens Aéreas TADSIII</title>
+        <link rel= stylesheet type= text/css href= css/mobile.css media="all">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="js/jquery-3-1-0-min.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+
+    </head>
+    <body>
+    <header>
+        <h1 class="titulo">Yes Turismo</h1>
+    </header>
+        <section class="corpo">
+            <div class="infAdcional">
+                <form>
+                    <fieldset><legend>Dados Cupom Fiscal</legend>
+                        <label>nome Passageiro:
+                            <input type="text" placeholder="Nome Passageiro">
+                        </label>
+                        <label for="data">Data da Viagem:
+                            <input id="data" type="text">
+                        </label><br/><br/><br/><br/>
+                        <label for="cidadeIda">Destino de:
+                        <select id="cidadeIda">
+                            <option>Ivinhema</option>
+                            <option>Nova Andradina</option>
+                        </select>
+                        </label>
+                        <label for="cidadeVolta">Para:
+                        <select id="cidadeVolta">
+                            <option>Nova Andradina</option>
+                            <option>Ivinhema</option>
+                            <option>Angélica</option>
+                        </select>
+                        </label><br/><br/><br/>
+                        <label for="valor">Valor:
+                        <input type="text" id="valor" value="R$35.00">
+                        </label>
+                        <a href="#ancora" class="linkbotao">Escolher Poltrona</a>
+                    </fieldset>
+                    <h3>Escolha sua Poltrona</h3>
+                    </form>
+                    <div class="conttainerBox" id="ancora">
+                        <div id="opcao">
+                            <h3>Entrada</h3>
+                            <img class="escolha" src="imgs/livre.png"><p class="txt">Disponível</p><br/>
+                            <img class="escolha" src="imgs/ocupado.png"><p class="txt">Ocupado</p><br/>
+                            <img class="escolha" src="imgs/selecionado.png"><p class="txt">Selecionado</p><br/>
+                        </div>
+                        <div class="ladEsquerdo">
+                            <div class="box"></div>
+                            <div class="box"></div>
+                        </div>
+                        <div class="ladDireito">
+                            <div class="box"></div>
+                            <div class="box"></div>
+                        </div>
+                    </div>
+                </div>
+            <div class="jmodal modal">
+                <a class="jmodalFechar modal-fechar" href="#">X</a>
+                <p class="modal-txt">
+                    passagem comprada com sucesso!
+                </p>
+
+            </div>
+            <div class="venda link">
+                <input type="button" class="botao jmodalAbrir link-tu" value="Comprar Passagem!">
+            </div>
+        </section>
+    </body>
+</html>

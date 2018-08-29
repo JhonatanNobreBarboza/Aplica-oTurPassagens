@@ -1,0 +1,11 @@
+@media screen and (man-width: 650px) {
+    .corpo{
+        min-width: 90%;
+    }
+    .conttainerBox {
+        min-width: 60%;
+    }
+    .poltrona {
+        margin: 8px;
+    }
+}
